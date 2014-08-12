@@ -36,8 +36,14 @@
       });
     </script>
 
+   <!-- Can no longer use github as a CDN. It sends files as text/plain which prevents some browsers from loading them    
     <script src="https://raw.github.com/twolfson/File-Watcher/master/src/watcher.js"></script>
     <script src="https://raw.github.com/twolfson/Resource-Collector/master/src/collector.js"></script>
+    So I downloaded the libaries.
+    -->
+    <script src="File-Watcher/watcher.js"></script>
+    <script src="Resource-Collector/collector.js"></script>
+
     <script>
         (function () {
            var watcher = new FileWatcher(),
